@@ -79,6 +79,36 @@ data[date2] = todo0
 * Для вывода данных на экран используйте функцию `print`.
 * Сохраняйте нужные вам данные в переменные.
 
+Ответ задание 3  
+
+```python
+task_dict = {}
+
+date = input('Введите дату: ')
+task = input('Введите задачу: ')
+task_dict[date] = task
+print(date, task)
+print(task_dict)
+
+date = input('Введите дату: ')
+task = input('Введите задачу: ')
+task_dict[date] = task
+print(date, task)
+print(task_dict)
+
+date = input('Введите дату: ')
+task = input('Введите задачу: ')
+task_dict[date] = task
+print(date, task)
+print(task_dict)
+
+# Если хотите лучше понять это решение - добавьте вывод на экран после каждого пользовательского ввода
+# print(date, task)
+# print(task_dict)
+print()
+print(task_dict)
+```
+
 ***
 
 ## Инструкция по выполнению домашнего задания
